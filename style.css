@@ -1,0 +1,57 @@
+/* I give up on this codeeeeee
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    // border: 5px solid #e9a6a6; //
+}
+
+.container {
+    display: flex;
+    gap: 0.5em;
+    flex: 1;
+}
+
+.sidebar {
+    border: 2px solid #5897cf;
+    background-color: aliceblue;
+    width: 100px;
+    
+    //
+    flex: 0.5;
+    float: left;
+    //
+}
+
+.center {
+    border: 2px solid #5897cf;
+    background-color: aliceblue;
+    height: 300px;
+    flex:1;
+    //
+    height: 250px;
+    width: 1000px;
+    flex: 1;
+    //
+}
+
+.bottom {
+    border: 2px solid #5897cf;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-top: auto;
+    height: 250px;
+    width: 300px;
+    //
+    height: 250px;
+    flex-grow: 1;
+    align-self: flex-end;
+    //
+}
+*/
+
+
+
+
+
