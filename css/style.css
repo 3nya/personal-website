@@ -1,55 +1,83 @@
-/* I give up on this codeeeeee
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
 .container {
-    width: 600px;
-    height: 600px;
+    width: 50%;
+    height: 700px;
     margin: 0 auto;
     margin-top: 100px;
-    // border: 5px solid #e9a6a6; //
+    border: 5px solid #a6c9e9;
 }
 
 .container {
     display: flex;
-    gap: 0.5em;
-    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.25em;
+    align-items: flex-start;
 }
 
+
+.box {
+    width: 30%;
+    height: 30em;
+    background-color: #bedae2;
+    margin: 0.5em;
+    padding: 0.5em;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.first {
+    flex-grow: 10;
+}
+.second {
+    flex: 200;
+}
+.center {
+    flex-basis: 100%;
+    
+    width: 62%;
+    
+}
+
+
+/*
 .sidebar {
     border: 2px solid #5897cf;
     background-color: aliceblue;
-    width: 100px;
     
-    //
-    flex: 0.5;
-    float: left;
-    //
+
+    
 }
 
 .center {
     border: 2px solid #5897cf;
     background-color: aliceblue;
-    height: 300px;
-    flex:1;
-    //
-    height: 250px;
-    width: 1000px;
-    flex: 1;
-    //
+
+    
 }
 
 .bottom {
     border: 2px solid #5897cf;
     background-color: aliceblue;
-    display: inline-block;
-    margin-top: auto;
-    height: 250px;
-    width: 300px;
-    //
-    height: 250px;
-    flex-grow: 1;
-    align-self: flex-end;
-    //
+
+
+    
 }
 */
+
 
 
 
