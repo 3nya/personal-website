@@ -3,17 +3,61 @@ body {
     padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
-    font-family: "Roboto", sans-serif;
+    color:#6e95b9;
+    font-family: "Optima", sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items : center;   
     height: 100vh;
+    background-color: #f8f8f4;
 }
 
+/* If the link is unvisited you see this color*/ 
+a:link { 
+    color: #155681; 
+    text-decoration: none; 
+} 
+  
+        /* If the link is visited you see this color*/ 
+a:visited { 
+    color: #73c0ff; 
+} 
+  
+/* On placing mouse over the link */ 
+a:hover { 
+    color: #ffffff; 
+    text-decoration: underline; 
+} 
+  
+        /* If the click the link,  you see this color*/ 
+a:active { 
+    color: #ffffff;
+} 
+
+.name {
+    position:absolute;
+    left:22%;top:1%;
+
+    height: 25%;
+}
+.other {
+    position:absolute;
+    right:15%;
+    bottom:3%;
+    height: 40%;
+}
+
+.catdog {
+    position:absolute;
+    left: 18%;
+    bottom: 3%;
+    height: 17%;
+}
 
 .container {
     width: 50%;
     height: 700px;
+
     margin: 0 auto;
     margin-top: 100px;
     border: 5px solid #a6c9e9;
@@ -29,27 +73,26 @@ body {
 
 
 .box {
-    width: 30%;
-    height: 30em;
-    background-color: #bedae2;
+    width: 42.5%;
+    height: 40%;
+    background-color: #d6e8f0;
     margin: 0.5em;
     padding: 0.5em;
     font-weight: 700;
     text-align: center;
     border-radius: 10px;
+
 }
 
 .first {
-    flex-grow: 10;
+    flex: 300;
 }
 .second {
     flex: 200;
 }
 .center {
-    flex-basis: 100%;
-    
-    width: 62%;
-    
+    height: 100%;
+    width: flex;
 }
 
 
