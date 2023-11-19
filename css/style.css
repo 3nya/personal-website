@@ -65,6 +65,7 @@ a:active {
 
 .container {
     display: flex;
+    justify-content: left;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 0.25em;
@@ -91,8 +92,8 @@ a:active {
     flex: 200;
 }
 .center {
-    height: 100%;
-    width: flex;
+    
+    flex: 100;
 }
 
 
