@@ -195,21 +195,9 @@ ul {
 
 }
 
-@media (max-width: 406px) {
+@media (max-width: 430px) {
     .container {
-        font-size: 45%;
-    }
-    .other {
-        right: 5%;
-        height: 15%;
-    }
-    
-
-}
-
-@media (max-width: 375px) {
-    .container {
-        font-size: 45%;
+        font-size: 50%;
     }
     .name {
         display: none;
@@ -219,6 +207,22 @@ ul {
     }
     .catdog {
         display: none;
+    }
+    
+    
+
+}
+
+@media (max-width: 406px) {
+    .container {
+        font-size: 45%;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .container {
+        font-size: 44%;
     }
     
 }
