@@ -34,24 +34,35 @@ a:active {
     color: #ffffff;
 } 
 
-.name {
+.name { 
     position:absolute;
-    left:22%;top:1%;
+    left:15vmax;top:1vmax;
 
-    height: 25%;
+    width: 25vmax;
+    height: 15vmax;
 }
 .other {
     position:absolute;
     right:15%;
     bottom:3%;
-    height: 40%;
+    height: 20vmax;
 }
 
 .catdog {
     position:absolute;
+    /*
+    height: 17vmax;
+
+
+    left: 15vmax;
+    bottom: 2vmax;
+    */
+    
+    
     left: 18%;
     bottom: 3%;
-    height: 17%;
+    height: 10vmax;
+    
 }
 
 .container {
@@ -84,6 +95,11 @@ a:active {
     border-radius: 10px;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 .first {
     flex: 300;
@@ -91,12 +107,121 @@ a:active {
 .second {
     flex: 200;
 }
-.center {
+.center { 
     
     flex: 100;
 }
 
+@media (max-width: 1624px) {
+    .container {
+        font-size: 88%;
+    }
 
+}
+
+@media (max-width: 1350px) {
+    .container {
+        font-size: 85%;
+    }
+
+}
+
+@media (max-width: 1149px) {
+    .container {
+        font-size: 80%;
+    }
+
+}
+
+@media (max-width: 1050px) {
+    .container {
+        font-size: 75%;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .container {
+        font-size: 70%;
+    }
+
+}
+
+@media (max-width: 810px) {
+    .container {
+        font-size: 65%;
+    }
+
+}
+
+@media (max-width: 732px) {
+    .container {
+        font-size: 60%;
+    }
+    .other {
+        right: 8%;
+        height: 20%;
+    }
+
+}
+
+@media (max-width: 594px) {
+    .container {
+        font-size: 55%;
+    }
+    .other {
+        right: 8%;
+        height: 15%;
+    }
+    ul {
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 510px) {
+    .container {
+        font-size: 50%;
+    }
+    .name {
+        left: 5%;
+    }
+    .other {
+        right: 8%;
+        height: 15%;
+    }
+
+}
+
+@media (max-width: 406px) {
+    .container {
+        font-size: 45%;
+    }
+    .other {
+        right: 5%;
+        height: 15%;
+    }
+    
+
+}
+
+@media (max-width: 375px) {
+    .container {
+        font-size: 45%;
+    }
+    .name {
+        display: none;
+    }
+    .other {
+        display: none;
+    }
+    .catdog {
+        display: none;
+    }
+    
+}
 /*
 .sidebar {
     border: 2px solid #5897cf;
