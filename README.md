@@ -6,3 +6,7 @@ Very satisfied and happy with the current outcome :) Set a bunch of future goals
 
 11/23/23 - Mobile ui
 Very lazy solution of just lowering font sizes and removing images but it's not ugly if i open it on my phone sooooo
+
+Problems/goals:
+- Code didn't build properly so the images don't get removed when the screen width is low (works locally)
+- Going to update contents and link it to portfolio page which is in progress
