@@ -9,3 +9,6 @@ Very lazy solution of just lowering font sizes and removing images but it's not 
 
 12/31/23 - Portfolio page finished
 Not linked with the original page though. Made with a template because I'm trying to get it done in a short amount of time. Will eventually try to handcode. 
+
+6/16/24 - Re-updated Homepage
+Re updated with all my CS experience and contact links. 
